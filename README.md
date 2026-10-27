@@ -42,29 +42,9 @@ The working principle of an AI-powered self-driving car involves continuous envi
 6. **Vehicle Control:** Steering, braking, and acceleration commands are generated.
 7. **Continuous Feedback:** New sensor measurements are used to update the vehicle's decisions.
 
-### Processing Flowchart
 
-```mermaid
-flowchart TD
-    A[Environmental Sensors] --> B[Data Acquisition]
-    B --> C[AI-Based Perception]
-    C --> D[Environment Understanding]
-    D --> E[Decision Making]
-    E --> F[Path Planning]
-    F --> G[Vehicle Control]
-    G --> H[Vehicle Movement]
-    H --> A
 
-    style A fill:#DCEBFA,stroke:#477DB3,color:#172B4D
-    style C fill:#E9E1FA,stroke:#8064A2,color:#30224A
-    style E fill:#FFF0D2,stroke:#C28A27,color:#513B13
-    style G fill:#DDF3E4,stroke:#4B9565,color:#183D28
-    style H fill:#DDF3E4,stroke:#4B9565,color:#183D28
-```
 
-### Illustrative Scenario: Pedestrian Detection
-
-When a pedestrian enters the vehicle's projected path, the perception system detects the person using sensor data. The system estimates the potential collision risk, evaluates the surrounding traffic, and determines whether braking or another safe response is necessary. The vehicle control system then executes the selected action and continues monitoring the environment.
 
 ### Applications
 
